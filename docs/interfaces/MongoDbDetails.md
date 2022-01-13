@@ -21,7 +21,7 @@ collection name. If not present then it will be created
 
 #### Defined in
 
-mongoPerfSubscriber.ts:11
+[mongoPerfSubscriber.ts:11](https://github.com/gajananpp/parikshan/blob/b7537f7/src/mongoPerfSubscriber.ts#L11)
 
 ___
 
@@ -33,7 +33,7 @@ mongodb connection string
 
 #### Defined in
 
-mongoPerfSubscriber.ts:7
+[mongoPerfSubscriber.ts:7](https://github.com/gajananpp/parikshan/blob/b7537f7/src/mongoPerfSubscriber.ts#L7)
 
 ___
 
@@ -45,7 +45,7 @@ db name
 
 #### Defined in
 
-mongoPerfSubscriber.ts:9
+[mongoPerfSubscriber.ts:9](https://github.com/gajananpp/parikshan/blob/b7537f7/src/mongoPerfSubscriber.ts#L9)
 
 ___
 
@@ -57,4 +57,4 @@ auto delete document after n seconds. Ignore to keep document
 
 #### Defined in
 
-mongoPerfSubscriber.ts:13
+[mongoPerfSubscriber.ts:13](https://github.com/gajananpp/parikshan/blob/b7537f7/src/mongoPerfSubscriber.ts#L13)

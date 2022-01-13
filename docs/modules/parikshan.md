@@ -30,4 +30,4 @@ true if function string contains native code/this variable
 
 #### Defined in
 
-parikshan.ts:108
+[parikshan.ts:108](https://github.com/gajananpp/parikshan/blob/b7537f7/src/parikshan.ts#L108)

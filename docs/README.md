@@ -74,7 +74,7 @@ function wrapped with performance hooks
 
 #### Defined in
 
-parikshan.ts:23
+[parikshan.ts:23](https://github.com/gajananpp/parikshan/blob/b7537f7/src/parikshan.ts#L23)
 
 ## Functions
 
@@ -97,4 +97,4 @@ if collection doesn't exist then a new time series collection with given name wi
 
 #### Defined in
 
-mongoPerfSubscriber.ts:23
+[mongoPerfSubscriber.ts:23](https://github.com/gajananpp/parikshan/blob/b7537f7/src/mongoPerfSubscriber.ts#L23)

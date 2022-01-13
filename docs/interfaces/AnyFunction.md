@@ -20,7 +20,7 @@
 
 #### Defined in
 
-parikshan.ts:11
+[parikshan.ts:11](https://github.com/gajananpp/parikshan/blob/b7537f7/src/parikshan.ts#L11)
 
 ## Indexable
 

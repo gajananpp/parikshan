@@ -42,7 +42,7 @@ AST for requiring parikshan to be added at start of each file
 
 #### Defined in
 
-compiler.ts:23
+[compiler.ts:23](https://github.com/gajananpp/parikshan/blob/b7537f7/src/compiler.ts#L23)
 
 ## Methods
 
@@ -67,7 +67,7 @@ source to output dir keeping the file structure
 
 #### Defined in
 
-compiler.ts:140
+[compiler.ts:140](https://github.com/gajananpp/parikshan/blob/b7537f7/src/compiler.ts#L140)
 
 ___
 
@@ -94,4 +94,4 @@ transformed source code
 
 #### Defined in
 
-compiler.ts:73
+[compiler.ts:73](https://github.com/gajananpp/parikshan/blob/b7537f7/src/compiler.ts#L73)

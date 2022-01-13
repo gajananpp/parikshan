@@ -30,7 +30,7 @@
 
 #### Defined in
 
-mongoPerfSubscriber.ts:56
+[mongoPerfSubscriber.ts:56](https://github.com/gajananpp/parikshan/blob/b7537f7/src/mongoPerfSubscriber.ts#L56)
 
 ___
 
@@ -56,7 +56,7 @@ Extra details
 
 #### Defined in
 
-parikshan.ts:126
+[parikshan.ts:126](https://github.com/gajananpp/parikshan/blob/b7537f7/src/parikshan.ts#L126)
 
 ___
 
@@ -72,7 +72,7 @@ A high res timeStamp representing the time value of the duration of the function
 
 #### Defined in
 
-parikshan.ts:120
+[parikshan.ts:120](https://github.com/gajananpp/parikshan/blob/b7537f7/src/parikshan.ts#L120)
 
 ___
 
@@ -88,7 +88,7 @@ Entry type
 
 #### Defined in
 
-parikshan.ts:124
+[parikshan.ts:124](https://github.com/gajananpp/parikshan/blob/b7537f7/src/parikshan.ts#L124)
 
 ___
 
@@ -100,7 +100,7 @@ ___
 
 #### Defined in
 
-mongoPerfSubscriber.ts:58
+[mongoPerfSubscriber.ts:58](https://github.com/gajananpp/parikshan/blob/b7537f7/src/mongoPerfSubscriber.ts#L58)
 
 ___
 
@@ -116,7 +116,7 @@ PerformanceEntry name
 
 #### Defined in
 
-parikshan.ts:118
+[parikshan.ts:118](https://github.com/gajananpp/parikshan/blob/b7537f7/src/parikshan.ts#L118)
 
 ___
 
@@ -132,4 +132,4 @@ A high res timeStamp representing the starting time for the performance metric. 
 
 #### Defined in
 
-parikshan.ts:122
+[parikshan.ts:122](https://github.com/gajananpp/parikshan/blob/b7537f7/src/parikshan.ts#L122)
