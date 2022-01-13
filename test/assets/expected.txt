@@ -1,0 +1,3 @@
+const {parikshan} = require("parikshan/build/src/parikshan");
+parikshan(greet)('John');
+parikshan(parikshan.usesThisOrNative(obj.greet) ? obj.greet.bind(obj) : obj.greet)('John')

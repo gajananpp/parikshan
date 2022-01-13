@@ -1,0 +1,10 @@
+{
+  "extends": "./node_modules/gts/",
+  "rules": {
+    "@typescript-eslint/ban-ts-comment": ["error",  {
+      "ts-ignore": "allow-with-description",
+      "minimumDescriptionLength": 4
+    }],
+    "@typescript-eslint/no-explicit-any": "off"
+  }
+}
