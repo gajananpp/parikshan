@@ -4,7 +4,7 @@
 
 
 ![lint](https://github.com/gajananpp/parikshan/actions/workflows/lint.yml/badge.svg) 
-![lint](https://github.com/gajananpp/parikshan/actions/workflows/test.yml/badge.svg) 
+![test](https://github.com/gajananpp/parikshan/actions/workflows/test.yml/badge.svg) 
 ![build](https://github.com/gajananpp/parikshan/actions/workflows/build.yml/badge.svg) 
 [![npm version](https://badge.fury.io/js/parikshan.svg)](https://www.npmjs.com/package/parikshan)
 
