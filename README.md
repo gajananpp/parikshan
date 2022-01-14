@@ -16,7 +16,6 @@ Compiler to measure the running time of javascript functions.
 [Using with MongoDB](#using-with-mongodb) •
 [FAQs](#faqs)
 
-<br>
 
 Converts
 
