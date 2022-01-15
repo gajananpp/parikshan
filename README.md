@@ -63,6 +63,10 @@ yarn add parikshan -D
 ### CLI Usage
 
 ```
+npx parikshan@latest -h
+```
+
+```
 parikshan  <files..>
 
 Compiles code to performance.measure the functions
