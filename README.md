@@ -206,40 +206,40 @@ Yes, before bundling you can compile it. Creating a webpack loader is in roadmap
 
 > NOTE :- having Azure account is not required for this to run. So envs in `.env` of `43.complex-dialog` can be left undefined.
 
-```
-// clone botbuilder samples repo
+```bash
+# clone botbuilder samples repo
 git clone https://github.com/microsoft/BotBuilder-Samples.git
 
-// goto 43.complex-dialog example
+# goto 43.complex-dialog example
 cd BotBuilder-Samples/samples/javascript_nodejs/43.complex-dialog
 
-// install dependencies
+# install dependencies
 npm install
 
-// install parikshan as dev dependency
+# install parikshan as dev dependency
 npm i parikshan -D
 
-// at the beginning of index.js, add
-//
-// const {initMongoPerfSubscriber} = require('parikshan')
-// initMongoPerfSubscriber({
-//   dbConnectionString: process.env.DB_CONN_STRING,
-//   dbName: process.env.DB_NAME,
-//   collectionName: process.env.DB_COLLECTION,
-// })
+# at the beginning of index.js, add
+#
+# const {initMongoPerfSubscriber} = require('parikshan')
+# initMongoPerfSubscriber({
+#   dbConnectionString: process.env.DB_CONN_STRING,
+#   dbName: process.env.DB_NAME,
+#   collectionName: process.env.DB_COLLECTION,
+# })
 
-// compile with parikshan
+# compile with parikshan
 npx parikshan "{,!(node_modules)/**/}*.js" -s
 
-// run compiled code
+# run compiled code
 node build/parikshan/index.js
 
-// converse with bot using botframework emulator. Check README of 43.complex-dialog for info on this.
+# converse with bot using botframework emulator. Check README of 43.complex-dialog for info on this.
 
-// performance entries will be stored in collection as users are using bot.
-// create your own MongoDB charts dashboard or import dashboard of this project to get insights of your code.
+# performance entries will be stored in collection as users are using bot.
+# create your own MongoDB charts dashboard or import dashboard of this project to get insights of your code.
 
-// Adjust refresh time in `Auto-refresh settings` of dashboard according to your need
+# Adjust refresh time in `Auto-refresh settings` of dashboard according to your need
 ```
 
 **Q: What does word "parikshan" means ?**
