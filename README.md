@@ -204,7 +204,8 @@ Yes, before bundling you can compile it. Creating a webpack loader is in roadmap
 **Q: How was the example project shown in [dashboard](#using-with-mongodb) compiled ?**
 <br>
 
-**NOTE :- having Azure account is not required for this to run. So envs in `.env` of `43.complex-dialog` can be left undefined.**
+> NOTE :- having Azure account is not required for this to run. So envs in `.env` of `43.complex-dialog` can be left undefined.
+
 ```
 // clone botbuilder samples repo
 git clone https://github.com/microsoft/BotBuilder-Samples.git
