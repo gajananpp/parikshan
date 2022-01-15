@@ -77,7 +77,7 @@ Positional Arguments:
 Options:
   -h, --help        Show help                                          [boolean]
   -v, --version     Show version number                                [boolean]
-  -o, --output-dir  Output directory                 [string] [default: "build/parikshan"]
+  -o, --output-dir  Output directory       [string] [default: "build/parikshan"]
   -s, --source-loc  Capture line, column number in performance measurement
                                                       [boolean] [default: false]
 
