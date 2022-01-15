@@ -198,7 +198,7 @@ Yes, before bundling you can compile it. Creating a webpack loader is in roadmap
 2. `performance.timerify` only works in NodeJS environment as it uses internal native binding.
 
 **Q: How was the example project shown in [dashboard](#using-with-mongodb) compiled ?**
-> NOTE :- having Azure account is not required for this to run. So envs in `.env` of `43.complex-dialog` can be left undefined.
+**NOTE :- having Azure account is not required for this to run. So envs in `.env` of `43.complex-dialog` can be left undefined.**
 <br>
 ```
 // clone botbuilder samples repo
