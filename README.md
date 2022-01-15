@@ -197,6 +197,44 @@ Yes, before bundling you can compile it. Creating a webpack loader is in roadmap
 1. To add additional details to performance entries.
 2. `performance.timerify` only works in NodeJS environment as it uses internal native binding.
 
+**Q: How was the example project shown in [dashboard](#using-with-mongodb) compiled ?**
+<br>
+```
+// clone botbuilder samples repo
+git clone https://github.com/microsoft/BotBuilder-Samples.git
+
+// goto 43.complex-dialog example
+cd BotBuilder-Samples/samples/javascript_nodejs/43.complex-dialog
+
+// install dependencies
+npm install
+
+// install parikshan as dev dependency
+npm i parikshan -D
+
+// at the beginning of index.js, add
+//
+// const {initMongoPerfSubscriber} = require('parikshan')
+// initMongoPerfSubscriber({
+//   dbConnectionString: process.env.DB_CONN_STRING,
+//   dbName: process.env.DB_NAME,
+//   collectionName: process.env.DB_COLLECTION,
+// })
+
+// compile with parikshan
+npx parikshan "{,!(node_modules)/**/}*.js" -s
+
+// run compiled code
+node build/parikshan/index.js
+
+// converse with bot using botframework emulator. Check README of 43.complex-dialog for info on this.
+
+// performance entries will be stored in collection as users are using bot.
+// create your own MongoDB charts dashboard or import dashboard of this project to get insights of your code.
+
+// Adjust refresh time in `Auto-refresh settings` of dashboard according to your need
+```
+
 **Q: What does word "parikshan" means ?**
 <br>
 Word "parikshan" is originated from Sanskrit language meaning "examine"
