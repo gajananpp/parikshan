@@ -9,7 +9,7 @@
 [![npm version](https://badge.fury.io/js/parikshan.svg)](https://www.npmjs.com/package/parikshan)
 
 
-Compiler to measure the running time of javascript functions.
+Transpiler to measure the running time of javascript functions.
 
 [Installation](#installation) •
 [Usage](#usage) •
